@@ -1,0 +1,9 @@
+main p {
+    color: #02b2f2; 
+    font-size: larger;
+}
+header p{
+    color: rgb(4, 4, 102);
+    background-color: rgb(16, 215, 255);
+    font-weight: bold;
+}
