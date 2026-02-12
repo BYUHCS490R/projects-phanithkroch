@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(solidBG.jpg);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 187, 52);
+    background-repeat: repeat;
+}
+.decorative {
+    min-height: 80px;
+    background-image:url(emoji.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mylist {
+    list-style-type:square;
+    /*list-style-image: url(emoji.png)*/
+    list-style-image: url(flowericon.png);
+}   
+.emoji {
+    width: 400px;
+    height: 400px;
+}   
