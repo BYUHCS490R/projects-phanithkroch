@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #222;
+    background-color: rgb(255, 254, 166);
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: left top, right center;
+}
+nav a {
+    color: rgb(0, 0, 0);
+}
+.current {
+    color: rgb(148, 15, 15);
+    text-decoration: none;
+}
+.icon {
+    list-style-image: url(symbol.png);
+}
+.imagerow {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
