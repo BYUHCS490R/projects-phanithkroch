@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(245, 245, 201);
+    padding: 0;
+}
+header {
+    background-image: url(Angkor-Wat.jpg);
+    background-size: cover;
+    background-origin: content-box;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+}
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+nav a {
+    display: inline-block;
+    background-color: cadetblue;
+    color: white;
+    padding: 5px;
+    border-bottom: thin solid #FFF;
+    float: left;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+    background-color: #FFF;
+    color: cadetblue;
+}
+.clear {
+    clear: both;
+}
+main {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+main P {
+    background-color: cadetblue;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+#wrapper {
+    width: 850px;
+    background-color: #FFFF;
+    margin: auto;
+    border: thin solid black;
+    box-shadow: -5px -5px 5px rgb(199, 187, 177);
+    border-radius: 10px;
+}
+.angkorwat {
+    float: left;
+    width: 320px;
+    margin: 0 20px 15px 0;
+    padding: 5px;
+    border: 3px solid #8B0000;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0,2);
+}
+.angkorwat img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+figcaption {
+    background-color: rgb(105, 112, 37);
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+}
