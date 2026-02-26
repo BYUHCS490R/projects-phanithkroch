@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(71, 94, 102);
+    color: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "navigation navigation navigation"
+        "aside1 main aside2"
+        "footer footer footer";
+}
+
+header { grid-area: header; }
+nav { grid-area: navigation; }
+.aside1 { grid-area: aside1; }
+.aside2 { grid-area: aside2; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item {
+    background-color: rgb(0, 189, 183);
+    padding: 10px;
+}
