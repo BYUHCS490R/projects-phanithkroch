@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #65b1f3;
+}
+header {
+    background-color: #1748cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    background: #334155;
+}
+.wrapper {
+    display: flex;
+}
+.leftsidebar {
+    width: 250px;
+    padding: 20px;
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 3px 7px black;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    display: block;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.footer-grid a {
+    display: block;
+}
