@@ -1,10 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-tr {
-    background-color: rgb(65, 68, 68);
-    color: white;
-}
 li {
     font-weight: bold;
     font-style: italic;
@@ -14,9 +10,37 @@ caption {
     text-decoration: underline;
 }
 footer {
-    background-color: rgb(48, 55, 55);
+    background-color: rgb(6, 113, 113);
     padding: 10px;
     color: white;
     text-align: center;
     font-size: 12px;
+}
+.schedule {
+    border: 1px solid #000;
+    caption-side: bottom;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*.schedule td, .schedule th {
+    border: 1px solid #000;
+    padding: 5px;
+}*/
+.schedule thead, .schedule tfoot {
+    background-color: rgb(5, 134, 134);
+    color: white;
+}
+.schedule td {
+    border-bottom: 1px solid white;
+    vertical-align: center;
+}
+.schedule tbody tr:nth-of-type(odd) {
+    background-color: rgb(203, 199, 199);
+}
+.intro::first-letter {
+    font-size: larger;
+    color: red;
+    font-weight: bold;
 }
